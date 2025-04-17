@@ -1,0 +1,5 @@
+<%- include('partials/header', { user }) %>
+<h2>Dashboard</h2>
+<p>Welcome, <%= user.username %>!</p>
+<p>Email: <%= user.email %></p>
+<p>Admin: <%= user.isAdmin ? 'Yes' : 'No' %></p>
